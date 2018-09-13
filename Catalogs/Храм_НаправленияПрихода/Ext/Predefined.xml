@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="57de6de2-75fc-4087-b0ed-891c58939ba6">
+		<Name>БудетОпределеноПозжеПоступление</Name>
+		<Code>000000003</Code>
+		<Description>Будет определено позже (поступление)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="074ebed5-31b9-4618-bd6d-4f17bed57fb8">
+		<Name>Нецелевое</Name>
+		<Code>000000002</Code>
+		<Description>Нецелевое</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9d820292-8179-490f-a193-d3a075ee369d">
+		<Name>Целевое</Name>
+		<Code>000000001</Code>
+		<Description>Целевое</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

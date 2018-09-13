@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<Subsystem uuid="4fae5536-a61e-4abe-b292-c521db011c92">
+		<Properties>
+			<Name>Храм</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Храм</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Храм_НаправленияПрихода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Храм_НаправленияРасхода</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Храм_КнигаУчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Храм_ЕпархиальныйОтчет</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Храм_Ящики_и_Кружки</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Храм_ИнвентаризационнаяКомиссия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Храм_ПечатьАктаПринятияИмущества</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

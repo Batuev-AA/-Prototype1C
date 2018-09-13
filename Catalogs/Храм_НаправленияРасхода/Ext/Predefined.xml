@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.5">
+	<Item id="95df21c1-e588-4577-9be4-e56b3d8815a6">
+		<Name>БудетОпределеноПозжеРасход</Name>
+		<Code>000000007</Code>
+		<Description>Будет определено позже (расход)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9b6d2b6b-78c9-4a56-9c6b-c80b16a5b49c">
+		<Name>НаРемонтИСодержаниеХрама</Name>
+		<Code>000000003</Code>
+		<Description>На ремонт и содержание храма</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6801b98-b2d4-4177-b550-2cc010d12e2a">
+		<Name>НаСодержаниеПерсонала</Name>
+		<Code>000000002</Code>
+		<Description>На содержание персонала</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="956afbb9-a29a-4751-a2f2-720133b34888">
+		<Name>ПеречисленоВЕпархиальноеУправлениеВзносы</Name>
+		<Code>000000001</Code>
+		<Description>Перечислено в Епархиальное Управление взносы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c73abd7e-f928-490c-94bf-bd2af5b21dce">
+		<Name>ПриобретениеЦерковнойУтвари</Name>
+		<Code>000000004</Code>
+		<Description>Приобретение церковной утвари</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="630e7ffc-d8e7-45de-8fcd-8bfd7f6334a6">
+		<Name>ПриходскаяБлаготворительность</Name>
+		<Code>000000005</Code>
+		<Description>Приходская благотворительность</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bcea0c24-fa02-4c78-a9ff-e385f712ee47">
+		<Name>ПрочиеРасходы</Name>
+		<Code>000000006</Code>
+		<Description>Прочие расходы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

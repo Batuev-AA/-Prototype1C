@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="ПодменюПечать" id="287">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+				</Title>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="288"/>
+			</Popup>
+			<Button name="ФормаПечать" id="289">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Печать</CommandName>
+				<ExtendedTooltip name="ФормаПечатьРасширеннаяПодсказка" id="290"/>
+			</Button>
+			<Button name="ФормаПечатьКнигаУчетаЦелевых" id="338">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПечатьКнигаУчетаЦелевых</CommandName>
+				<ExtendedTooltip name="ФормаПечатьКнигаУчетаЦелевыхРасширеннаяПодсказка" id="339"/>
+			</Button>
+			<Button name="ФормаПечатьКнигаУчетаОбщих" id="340">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПечатьКнигаУчетаОбщих</CommandName>
+				<ExtendedTooltip name="ФормаПечатьКнигаУчетаОбщихРасширеннаяПодсказка" id="341"/>
+			</Button>
+			<Button name="ФормаПечатьКнигаУчетаНеразнесенных" id="342">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПечатьКнигаУчетаНеразнесенных</CommandName>
+				<ExtendedTooltip name="ФормаПечатьКнигаУчетаНеразнесенныхРасширеннаяПодсказка" id="343"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="275">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Движения</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<BackColor>#FFCC00</BackColor>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="276"/>
+			<ChildItems>
+				<InputField name="Храм_НазначениеИспользования" id="277">
+					<ContextMenu name="Храм_НазначениеИспользованияКонтекстноеМеню" id="278"/>
+					<ExtendedTooltip name="Храм_НазначениеИспользованияРасширеннаяПодсказка" id="279"/>
+				</InputField>
+				<Button name="Целевые" id="285">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Целевые</CommandName>
+					<ExtendedTooltip name="ЦелевыеРасширеннаяПодсказка" id="286"/>
+				</Button>
+				<Button name="Нецелевые" id="283">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Нецелевые</CommandName>
+					<ExtendedTooltip name="НецелевыеРасширеннаяПодсказка" id="284"/>
+				</Button>
+				<Button name="Все" id="317">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Все</CommandName>
+					<ExtendedTooltip name="ВсеРасширеннаяПодсказка" id="318"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа3" id="296">
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="297"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Организация" id="10">
+					<DataPath>Объект.Организация</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОрганизацияКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="12"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа2" id="294">
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="295"/>
+			<ChildItems>
+				<InputField name="ГодОткрытияПрихода" id="19">
+					<DataPath>Объект.ГодОткрытияПрихода</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ГодОткрытияПриходаКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ГодОткрытияПриходаРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="ПериодОтчета" id="7">
+					<DataPath>Объект.ПериодОтчета</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПериодОтчетаКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ПериодОтчетаРасширеннаяПодсказка" id="9"/>
+				</InputField>
+				<InputField name="РекомендованныйПроцентОтчислений" id="22">
+					<DataPath>Объект.РекомендованныйПроцентОтчислений</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РекомендованныйПроцентОтчисленийКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="РекомендованныйПроцентОтчисленийРасширеннаяПодсказка" id="24"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа4" id="298">
+			<HorizontalStretch>true</HorizontalStretch>
+			<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="299"/>
+			<ChildItems>
+				<InputField name="НачПериода" id="34">
+					<DataPath>Объект.НачПериода</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Даты расчета показателей отчета с</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачПериодаКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="НачПериодаРасширеннаяПодсказка" id="36"/>
+				</InputField>
+				<InputField name="КонПериода" id="46">
+					<DataPath>Объект.КонПериода</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>по</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонПериодаКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="КонПериодаРасширеннаяПодсказка" id="48"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа9" id="331">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки расчета размера взноса</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="332"/>
+			<ChildItems>
+				<CheckBoxField name="ВзносВСумме" id="322">
+					<DataPath>Объект.ВзносВСумме</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВзносВСуммеКонтекстноеМеню" id="323"/>
+					<ExtendedTooltip name="ВзносВСуммеРасширеннаяПодсказка" id="324"/>
+				</CheckBoxField>
+				<CheckBoxField name="СчитатьВзносПоТаблицеПоступлений" id="335">
+					<DataPath>Объект.СчитатьВзносПоТаблицеПоступлений</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СчитатьВзносПоТаблицеПоступленийКонтекстноеМеню" id="336"/>
+					<ExtendedTooltip name="СчитатьВзносПоТаблицеПоступленийРасширеннаяПодсказка" id="337"/>
+				</CheckBoxField>
+				<Button name="РассчитатьВзнос" id="333">
+					<Type>UsualButton</Type>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>Form.Command.РассчитатьВзнос</CommandName>
+					<ExtendedTooltip name="РассчитатьВзносРасширеннаяПодсказка" id="334"/>
+				</Button>
+				<InputField name="РасчетнаяСуммаВзноса" id="328">
+					<DataPath>Объект.РасчетнаяСуммаВзноса</DataPath>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<ContextMenu name="РасчетнаяСуммаВзносаКонтекстноеМеню" id="329"/>
+					<ExtendedTooltip name="РасчетнаяСуммаВзносаРасширеннаяПодсказка" id="330"/>
+				</InputField>
+				<CheckBoxField name="ВзносВПечатнуюФормуИзРасчета" id="325">
+					<DataPath>Объект.ВзносВПечатнуюФормуИзРасходов</DataPath>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ВзносВПечатнуюФормуИзРасчетаКонтекстноеМеню" id="326"/>
+					<ExtendedTooltip name="ВзносВПечатнуюФормуИзРасчетаРасширеннаяПодсказка" id="327"/>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="Группа5" id="300">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Касса и банк</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="Группа5РасширеннаяПодсказка" id="301"/>
+			<ChildItems>
+				<Button name="ЗаполнитьПоДаннымБухучета" id="306">
+					<Type>UsualButton</Type>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<CommandName>Form.Command.ЗаполнитьПоДаннымБухучета</CommandName>
+					<ExtendedTooltip name="ЗаполнитьПоДаннымБухучетаРасширеннаяПодсказка" id="307"/>
+				</Button>
+				<UsualGroup name="Группа8" id="308">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остаток средств на начало периода:</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="309"/>
+					<ChildItems>
+						<InputField name="ОстатокСредствНаНачалоПериодаИтого" id="37">
+							<DataPath>Объект.ОстатокСредствНаНачалоПериодаИтого</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Итого</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстатокСредствНаНачалоПериодаИтогоКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="ОстатокСредствНаНачалоПериодаИтогоРасширеннаяПодсказка" id="39"/>
+						</InputField>
+						<InputField name="ОстатокСредствНаНачалоПериодаВКассе" id="40">
+							<DataPath>Объект.ОстатокСредствНаНачалоПериодаВКассе</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В кассе</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстатокСредствНаНачалоПериодаВКассеКонтекстноеМеню" id="41"/>
+							<ExtendedTooltip name="ОстатокСредствНаНачалоПериодаВКассеРасширеннаяПодсказка" id="42"/>
+						</InputField>
+						<InputField name="ОстатокСредствНаНачалоПериодаВБанке" id="43">
+							<DataPath>Объект.ОстатокСредствНаНачалоПериодаВБанке</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В банке</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстатокСредствНаНачалоПериодаВБанкеКонтекстноеМеню" id="44"/>
+							<ExtendedTooltip name="ОстатокСредствНаНачалоПериодаВБанкеРасширеннаяПодсказка" id="45"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа6" id="302">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остаток средств на конец периода:</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="303"/>
+					<ChildItems>
+						<InputField name="ОстатокСредствНаДатуОтчетаИтого" id="49">
+							<DataPath>Объект.ОстатокСредствНаДатуОтчетаИтого</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Итого</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстатокСредствНаДатуОтчетаИтогоКонтекстноеМеню" id="50"/>
+							<ExtendedTooltip name="ОстатокСредствНаДатуОтчетаИтогоРасширеннаяПодсказка" id="51"/>
+						</InputField>
+						<InputField name="ОстатокСредствНаДатуОтчетаВКассе" id="52">
+							<DataPath>Объект.ОстатокСредствНаДатуОтчетаВКассе</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В кассе</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстатокСредствНаДатуОтчетаВКассеКонтекстноеМеню" id="53"/>
+							<ExtendedTooltip name="ОстатокСредствНаДатуОтчетаВКассеРасширеннаяПодсказка" id="54"/>
+						</InputField>
+						<InputField name="ОстатокСредствНаДатуОтчетаВБанке" id="55">
+							<DataPath>Объект.ОстатокСредствНаДатуОтчетаВБанке</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В банке</v8:content>
+								</v8:item>
+							</Title>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстатокСредствНаДатуОтчетаВБанкеКонтекстноеМеню" id="56"/>
+							<ExtendedTooltip name="ОстатокСредствНаДатуОтчетаВБанкеРасширеннаяПодсказка" id="57"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа7" id="304">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="305"/>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="Страницы" id="67">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="68"/>
+			<ChildItems>
+				<Page name="ГруппаПоступленияПредыдущихЛет" id="96">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поступления предыдущих лет</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаПоступленияПредыдущихЛетРасширеннаяПодсказка" id="97"/>
+					<ChildItems>
+						<Table name="ПоступленияПредыдущихЛет" id="98">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПоступленияПредыдущихЛет</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПоступленияПредыдущихЛетКонтекстноеМеню" id="99"/>
+							<AutoCommandBar name="ПоступленияПредыдущихЛетКоманднаяПанель" id="100"/>
+							<ExtendedTooltip name="ПоступленияПредыдущихЛетРасширеннаяПодсказка" id="101"/>
+							<SearchStringAddition name="ПоступленияПредыдущихЛетСтрокаПоиска" id="102">
+								<AdditionSource>
+									<Item>ПоступленияПредыдущихЛет</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПоступленияПредыдущихЛетСтрокаПоискаКонтекстноеМеню" id="103"/>
+								<ExtendedTooltip name="ПоступленияПредыдущихЛетСтрокаПоискаРасширеннаяПодсказка" id="104"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПоступленияПредыдущихЛетСостояниеПросмотра" id="105">
+								<AdditionSource>
+									<Item>ПоступленияПредыдущихЛет</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПоступленияПредыдущихЛетСостояниеПросмотраКонтекстноеМеню" id="106"/>
+								<ExtendedTooltip name="ПоступленияПредыдущихЛетСостояниеПросмотраРасширеннаяПодсказка" id="107"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПоступленияПредыдущихЛетУправлениеПоиском" id="108">
+								<AdditionSource>
+									<Item>ПоступленияПредыдущихЛет</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПоступленияПредыдущихЛетУправлениеПоискомКонтекстноеМеню" id="109"/>
+								<ExtendedTooltip name="ПоступленияПредыдущихЛетУправлениеПоискомРасширеннаяПодсказка" id="110"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПоступленияПредыдущихЛетНомерСтроки" id="111">
+									<DataPath>Объект.ПоступленияПредыдущихЛет.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияПредыдущихЛетНомерСтрокиКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="ПоступленияПредыдущихЛетНомерСтрокиРасширеннаяПодсказка" id="113"/>
+								</LabelField>
+								<InputField name="ПоступленияПредыдущихЛетГод" id="114">
+									<DataPath>Объект.ПоступленияПредыдущихЛет.Год</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияПредыдущихЛетГодКонтекстноеМеню" id="115"/>
+									<ExtendedTooltip name="ПоступленияПредыдущихЛетГодРасширеннаяПодсказка" id="116"/>
+								</InputField>
+								<InputField name="ПоступленияПредыдущихЛетОбщиеПоступления" id="117">
+									<DataPath>Объект.ПоступленияПредыдущихЛет.ОбщиеПоступления</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияПредыдущихЛетОбщиеПоступленияКонтекстноеМеню" id="118"/>
+									<ExtendedTooltip name="ПоступленияПредыдущихЛетОбщиеПоступленияРасширеннаяПодсказка" id="119"/>
+									<Events>
+										<Event name="OnChange">ПоступленияПредыдущихЛетОбщиеПоступленияПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПоступленияПредыдущихЛетЦелевыеПоступленияОтСпонсоров" id="120">
+									<DataPath>Объект.ПоступленияПредыдущихЛет.ЦелевыеПоступленияОтСпонсоров</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияПредыдущихЛетЦелевыеПоступленияОтСпонсоровКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="ПоступленияПредыдущихЛетЦелевыеПоступленияОтСпонсоровРасширеннаяПодсказка" id="122"/>
+									<Events>
+										<Event name="OnChange">ПоступленияПредыдущихЛетОбщиеПоступленияПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПоступленияПредыдущихЛетИтого" id="123">
+									<DataPath>Объект.ПоступленияПредыдущихЛет.Итого</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияПредыдущихЛетИтогоКонтекстноеМеню" id="124"/>
+									<ExtendedTooltip name="ПоступленияПредыдущихЛетИтогоРасширеннаяПодсказка" id="125"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаПоступленияЗаОтчетныйГод" id="126">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поступления за отчетный год</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаПоступленияЗаОтчетныйГодРасширеннаяПодсказка" id="127"/>
+					<ChildItems>
+						<Table name="ПоступленияЗаОтчетныйГод" id="128">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПоступленияЗаОтчетныйГод</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПоступленияЗаОтчетныйГодКонтекстноеМеню" id="129"/>
+							<AutoCommandBar name="ПоступленияЗаОтчетныйГодКоманднаяПанель" id="130">
+								<ChildItems>
+									<Button name="ПоступленияЗаОтчетныйГодЗаполнитьПоступления" id="310">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ЗаполнитьПоступления</CommandName>
+										<ExtendedTooltip name="ПоступленияЗаОтчетныйГодЗаполнитьПоступленияРасширеннаяПодсказка" id="311"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ПоступленияЗаОтчетныйГодРасширеннаяПодсказка" id="131"/>
+							<SearchStringAddition name="ПоступленияЗаОтчетныйГодСтрокаПоиска" id="132">
+								<AdditionSource>
+									<Item>ПоступленияЗаОтчетныйГод</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПоступленияЗаОтчетныйГодСтрокаПоискаКонтекстноеМеню" id="133"/>
+								<ExtendedTooltip name="ПоступленияЗаОтчетныйГодСтрокаПоискаРасширеннаяПодсказка" id="134"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПоступленияЗаОтчетныйГодСостояниеПросмотра" id="135">
+								<AdditionSource>
+									<Item>ПоступленияЗаОтчетныйГод</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ПоступленияЗаОтчетныйГодСостояниеПросмотраКонтекстноеМеню" id="136"/>
+								<ExtendedTooltip name="ПоступленияЗаОтчетныйГодСостояниеПросмотраРасширеннаяПодсказка" id="137"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПоступленияЗаОтчетныйГодУправлениеПоиском" id="138">
+								<AdditionSource>
+									<Item>ПоступленияЗаОтчетныйГод</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ПоступленияЗаОтчетныйГодУправлениеПоискомКонтекстноеМеню" id="139"/>
+								<ExtendedTooltip name="ПоступленияЗаОтчетныйГодУправлениеПоискомРасширеннаяПодсказка" id="140"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПоступленияЗаОтчетныйГодНомерСтроки" id="141">
+									<DataPath>Объект.ПоступленияЗаОтчетныйГод.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияЗаОтчетныйГодНомерСтрокиКонтекстноеМеню" id="142"/>
+									<ExtendedTooltip name="ПоступленияЗаОтчетныйГодНомерСтрокиРасширеннаяПодсказка" id="143"/>
+								</LabelField>
+								<InputField name="ПоступленияЗаОтчетныйГодПериод" id="144">
+									<DataPath>Объект.ПоступленияЗаОтчетныйГод.Период</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияЗаОтчетныйГодПериодКонтекстноеМеню" id="145"/>
+									<ExtendedTooltip name="ПоступленияЗаОтчетныйГодПериодРасширеннаяПодсказка" id="146"/>
+									<Events>
+										<Event name="OnChange">ПоступленияЗаОтчетныйГодПериодПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПоступленияЗаОтчетныйГодОбщиеПоступления" id="147">
+									<DataPath>Объект.ПоступленияЗаОтчетныйГод.ОбщиеПоступления</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияЗаОтчетныйГодОбщиеПоступленияКонтекстноеМеню" id="148"/>
+									<ExtendedTooltip name="ПоступленияЗаОтчетныйГодОбщиеПоступленияРасширеннаяПодсказка" id="149"/>
+									<Events>
+										<Event name="OnChange">ПоступленияЗаОтчетныйГодОбщиеПоступленияПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПоступленияЗаОтчетныйГодЦелевыеПоступленияИСборы" id="150">
+									<DataPath>Объект.ПоступленияЗаОтчетныйГод.ЦелевыеПоступленияИСборы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияЗаОтчетныйГодЦелевыеПоступленияИСборыКонтекстноеМеню" id="151"/>
+									<ExtendedTooltip name="ПоступленияЗаОтчетныйГодЦелевыеПоступленияИСборыРасширеннаяПодсказка" id="152"/>
+									<Events>
+										<Event name="OnChange">ПоступленияЗаОтчетныйГодОбщиеПоступленияПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПоступленияЗаОтчетныйГодСубсидииЗаГаз" id="153">
+									<DataPath>Объект.ПоступленияЗаОтчетныйГод.СубсидииЗаГаз</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияЗаОтчетныйГодСубсидииЗаГазКонтекстноеМеню" id="154"/>
+									<ExtendedTooltip name="ПоступленияЗаОтчетныйГодСубсидииЗаГазРасширеннаяПодсказка" id="155"/>
+									<Events>
+										<Event name="OnChange">ПоступленияЗаОтчетныйГодОбщиеПоступленияПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПоступленияЗаОтчетныйГодНеуказанные" id="314">
+									<DataPath>Объект.ПоступленияЗаОтчетныйГод.Неуказанные</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияЗаОтчетныйГодНеуказанныеКонтекстноеМеню" id="315"/>
+									<ExtendedTooltip name="ПоступленияЗаОтчетныйГодНеуказанныеРасширеннаяПодсказка" id="316"/>
+									<Events>
+										<Event name="OnChange">ПоступленияЗаОтчетныйГодОбщиеПоступленияПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПоступленияЗаОтчетныйГодИтого" id="156">
+									<DataPath>Объект.ПоступленияЗаОтчетныйГод.Итого</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПоступленияЗаОтчетныйГодИтогоКонтекстноеМеню" id="157"/>
+									<ExtendedTooltip name="ПоступленияЗаОтчетныйГодИтогоРасширеннаяПодсказка" id="158"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаИзрасходованоЗаОтчетныйПериод" id="159">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Израсходовано за отчетный период</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаИзрасходованоЗаОтчетныйПериодРасширеннаяПодсказка" id="160"/>
+					<ChildItems>
+						<Table name="ИзрасходованоЗаОтчетныйПериод" id="161">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ИзрасходованоЗаОтчетныйПериодКонтекстноеМеню" id="162"/>
+							<AutoCommandBar name="ИзрасходованоЗаОтчетныйПериодКоманднаяПанель" id="163">
+								<ChildItems>
+									<Button name="ИзрасходованоЗаОтчетныйПериодДобавитьРасходыОтчетногоПериода" id="312">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ДобавитьРасходыОтчетногоПериода</CommandName>
+										<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодДобавитьРасходыОтчетногоПериодаРасширеннаяПодсказка" id="313"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодРасширеннаяПодсказка" id="164"/>
+							<SearchStringAddition name="ИзрасходованоЗаОтчетныйПериодСтрокаПоиска" id="165">
+								<AdditionSource>
+									<Item>ИзрасходованоЗаОтчетныйПериод</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИзрасходованоЗаОтчетныйПериодСтрокаПоискаКонтекстноеМеню" id="166"/>
+								<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодСтрокаПоискаРасширеннаяПодсказка" id="167"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИзрасходованоЗаОтчетныйПериодСостояниеПросмотра" id="168">
+								<AdditionSource>
+									<Item>ИзрасходованоЗаОтчетныйПериод</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИзрасходованоЗаОтчетныйПериодСостояниеПросмотраКонтекстноеМеню" id="169"/>
+								<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодСостояниеПросмотраРасширеннаяПодсказка" id="170"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИзрасходованоЗаОтчетныйПериодУправлениеПоиском" id="171">
+								<AdditionSource>
+									<Item>ИзрасходованоЗаОтчетныйПериод</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИзрасходованоЗаОтчетныйПериодУправлениеПоискомКонтекстноеМеню" id="172"/>
+								<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодУправлениеПоискомРасширеннаяПодсказка" id="173"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ИзрасходованоЗаОтчетныйПериодНомерСтроки" id="174">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодНомерСтрокиКонтекстноеМеню" id="175"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодНомерСтрокиРасширеннаяПодсказка" id="176"/>
+								</LabelField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодИзрасходованоИтого" id="291">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.ИзрасходованоИтого</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодИзрасходованоИтогоКонтекстноеМеню" id="292"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодИзрасходованоИтогоРасширеннаяПодсказка" id="293"/>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодПеречисленоВЕпархиальноеУправлениеВзносы" id="177">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.ПеречисленоВЕпархиальноеУправлениеВзносы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодПеречисленоВЕпархиальноеУправлениеВзносыКонтекстноеМеню" id="178"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодПеречисленоВЕпархиальноеУправлениеВзносыРасширеннаяПодсказка" id="179"/>
+									<Events>
+										<Event name="OnChange">ИзрасходованоЗаОтчетныйПериодПеречисленоВЕпархиальноеУправлениеВзносыПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодНаОбщецерковныеНужды" id="180">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.НаОбщецерковныеНужды</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодНаОбщецерковныеНуждыКонтекстноеМеню" id="181"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодНаОбщецерковныеНуждыРасширеннаяПодсказка" id="182"/>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодНаДуховноеОбразование" id="183">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.НаДуховноеОбразование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодНаДуховноеОбразованиеКонтекстноеМеню" id="184"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодНаДуховноеОбразованиеРасширеннаяПодсказка" id="185"/>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодВРеставрационныйФонд" id="186">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.ВРеставрационныйФонд</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодВРеставрационныйФондКонтекстноеМеню" id="187"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодВРеставрационныйФондРасширеннаяПодсказка" id="188"/>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодВБлаготворительныйФонд" id="189">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.ВБлаготворительныйФонд</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодВБлаготворительныйФондКонтекстноеМеню" id="190"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодВБлаготворительныйФондРасширеннаяПодсказка" id="191"/>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодРазделитель" id="192">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.Разделитель</DataPath>
+									<Enabled>false</Enabled>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>-</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодРазделительКонтекстноеМеню" id="193"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодРазделительРасширеннаяПодсказка" id="194"/>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодНаСодержаниеПерсонала" id="195">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.НаСодержаниеПерсонала</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодНаСодержаниеПерсоналаКонтекстноеМеню" id="196"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодНаСодержаниеПерсоналаРасширеннаяПодсказка" id="197"/>
+									<Events>
+										<Event name="OnChange">ИзрасходованоЗаОтчетныйПериодПересчитатьИтого</Event>
+									</Events>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодНаРемонтИСодержаниеХрама" id="198">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.НаРемонтИСодержаниеХрама</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодНаРемонтИСодержаниеХрамаКонтекстноеМеню" id="199"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодНаРемонтИСодержаниеХрамаРасширеннаяПодсказка" id="200"/>
+									<Events>
+										<Event name="OnChange">ИзрасходованоЗаОтчетныйПериодПересчитатьИтого</Event>
+									</Events>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодПриобретениеЦерковнойУтвари" id="201">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.ПриобретениеЦерковнойУтвари</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодПриобретениеЦерковнойУтвариКонтекстноеМеню" id="202"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодПриобретениеЦерковнойУтвариРасширеннаяПодсказка" id="203"/>
+									<Events>
+										<Event name="OnChange">ИзрасходованоЗаОтчетныйПериодПересчитатьИтого</Event>
+									</Events>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодПриходскаяБлаготворительность" id="204">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.ПриходскаяБлаготворительность</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодПриходскаяБлаготворительностьКонтекстноеМеню" id="205"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодПриходскаяБлаготворительностьРасширеннаяПодсказка" id="206"/>
+									<Events>
+										<Event name="OnChange">ИзрасходованоЗаОтчетныйПериодПересчитатьИтого</Event>
+									</Events>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодПрочиеРасходы" id="207">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.ПрочиеРасходы</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодПрочиеРасходыКонтекстноеМеню" id="208"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодПрочиеРасходыРасширеннаяПодсказка" id="209"/>
+									<Events>
+										<Event name="OnChange">ИзрасходованоЗаОтчетныйПериодПересчитатьИтого</Event>
+									</Events>
+								</InputField>
+								<InputField name="ИзрасходованоЗаОтчетныйПериодНеуказанные" id="319">
+									<DataPath>Объект.ИзрасходованоЗаОтчетныйПериод.Неуказанные</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИзрасходованоЗаОтчетныйПериодНеуказанныеКонтекстноеМеню" id="320"/>
+									<ExtendedTooltip name="ИзрасходованоЗаОтчетныйПериодНеуказанныеРасширеннаяПодсказка" id="321"/>
+									<Events>
+										<Event name="OnChange">ИзрасходованоЗаОтчетныйПериодПересчитатьИтого</Event>
+									</Events>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаВОтчетномГодуСовершено" id="210">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В отчетном году совершено</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаВОтчетномГодуСовершеноРасширеннаяПодсказка" id="211"/>
+					<ChildItems>
+						<Table name="ВОтчетномГодуСовершено" id="212">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ВОтчетномГодуСовершено</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ВОтчетномГодуСовершеноКонтекстноеМеню" id="213"/>
+							<AutoCommandBar name="ВОтчетномГодуСовершеноКоманднаяПанель" id="214"/>
+							<ExtendedTooltip name="ВОтчетномГодуСовершеноРасширеннаяПодсказка" id="215"/>
+							<SearchStringAddition name="ВОтчетномГодуСовершеноСтрокаПоиска" id="216">
+								<AdditionSource>
+									<Item>ВОтчетномГодуСовершено</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВОтчетномГодуСовершеноСтрокаПоискаКонтекстноеМеню" id="217"/>
+								<ExtendedTooltip name="ВОтчетномГодуСовершеноСтрокаПоискаРасширеннаяПодсказка" id="218"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ВОтчетномГодуСовершеноСостояниеПросмотра" id="219">
+								<AdditionSource>
+									<Item>ВОтчетномГодуСовершено</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВОтчетномГодуСовершеноСостояниеПросмотраКонтекстноеМеню" id="220"/>
+								<ExtendedTooltip name="ВОтчетномГодуСовершеноСостояниеПросмотраРасширеннаяПодсказка" id="221"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ВОтчетномГодуСовершеноУправлениеПоиском" id="222">
+								<AdditionSource>
+									<Item>ВОтчетномГодуСовершено</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ВОтчетномГодуСовершеноУправлениеПоискомКонтекстноеМеню" id="223"/>
+								<ExtendedTooltip name="ВОтчетномГодуСовершеноУправлениеПоискомРасширеннаяПодсказка" id="224"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ВОтчетномГодуСовершеноНомерСтроки" id="225">
+									<DataPath>Объект.ВОтчетномГодуСовершено.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВОтчетномГодуСовершеноНомерСтрокиКонтекстноеМеню" id="226"/>
+									<ExtendedTooltip name="ВОтчетномГодуСовершеноНомерСтрокиРасширеннаяПодсказка" id="227"/>
+								</LabelField>
+								<InputField name="ВОтчетномГодуСовершеноКрещенийДетейДо18лет" id="228">
+									<DataPath>Объект.ВОтчетномГодуСовершено.КрещенийДетейДо18лет</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВОтчетномГодуСовершеноКрещенийДетейДо18летКонтекстноеМеню" id="229"/>
+									<ExtendedTooltip name="ВОтчетномГодуСовершеноКрещенийДетейДо18летРасширеннаяПодсказка" id="230"/>
+								</InputField>
+								<InputField name="ВОтчетномГодуСовершеноКрещенийВзрослых" id="231">
+									<DataPath>Объект.ВОтчетномГодуСовершено.КрещенийВзрослых</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВОтчетномГодуСовершеноКрещенийВзрослыхКонтекстноеМеню" id="232"/>
+									<ExtendedTooltip name="ВОтчетномГодуСовершеноКрещенийВзрослыхРасширеннаяПодсказка" id="233"/>
+								</InputField>
+								<InputField name="ВОтчетномГодуСовершеноВенчаний" id="234">
+									<DataPath>Объект.ВОтчетномГодуСовершено.Венчаний</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВОтчетномГодуСовершеноВенчанийКонтекстноеМеню" id="235"/>
+									<ExtendedTooltip name="ВОтчетномГодуСовершеноВенчанийРасширеннаяПодсказка" id="236"/>
+								</InputField>
+								<InputField name="ВОтчетномГодуСовершеноОтпеваний" id="237">
+									<DataPath>Объект.ВОтчетномГодуСовершено.Отпеваний</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВОтчетномГодуСовершеноОтпеванийКонтекстноеМеню" id="238"/>
+									<ExtendedTooltip name="ВОтчетномГодуСовершеноОтпеванийРасширеннаяПодсказка" id="239"/>
+								</InputField>
+								<InputField name="ВОтчетномГодуСовершеноБогослужений" id="240">
+									<DataPath>Объект.ВОтчетномГодуСовершено.Богослужений</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВОтчетномГодуСовершеноБогослуженийКонтекстноеМеню" id="241"/>
+									<ExtendedTooltip name="ВОтчетномГодуСовершеноБогослуженийРасширеннаяПодсказка" id="242"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСведенияОПеречисленияхВзносов" id="243">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сведения о перечислениях взносов</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСведенияОПеречисленияхВзносовРасширеннаяПодсказка" id="244"/>
+					<ChildItems>
+						<Table name="СведенияОПеречисленияхВзносов" id="245">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СведенияОПеречисленияхВзносов</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СведенияОПеречисленияхВзносовКонтекстноеМеню" id="246"/>
+							<AutoCommandBar name="СведенияОПеречисленияхВзносовКоманднаяПанель" id="247"/>
+							<ExtendedTooltip name="СведенияОПеречисленияхВзносовРасширеннаяПодсказка" id="248"/>
+							<SearchStringAddition name="СведенияОПеречисленияхВзносовСтрокаПоиска" id="249">
+								<AdditionSource>
+									<Item>СведенияОПеречисленияхВзносов</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СведенияОПеречисленияхВзносовСтрокаПоискаКонтекстноеМеню" id="250"/>
+								<ExtendedTooltip name="СведенияОПеречисленияхВзносовСтрокаПоискаРасширеннаяПодсказка" id="251"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СведенияОПеречисленияхВзносовСостояниеПросмотра" id="252">
+								<AdditionSource>
+									<Item>СведенияОПеречисленияхВзносов</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СведенияОПеречисленияхВзносовСостояниеПросмотраКонтекстноеМеню" id="253"/>
+								<ExtendedTooltip name="СведенияОПеречисленияхВзносовСостояниеПросмотраРасширеннаяПодсказка" id="254"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СведенияОПеречисленияхВзносовУправлениеПоиском" id="255">
+								<AdditionSource>
+									<Item>СведенияОПеречисленияхВзносов</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СведенияОПеречисленияхВзносовУправлениеПоискомКонтекстноеМеню" id="256"/>
+								<ExtendedTooltip name="СведенияОПеречисленияхВзносовУправлениеПоискомРасширеннаяПодсказка" id="257"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СведенияОПеречисленияхВзносовНомерСтроки" id="258">
+									<DataPath>Объект.СведенияОПеречисленияхВзносов.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СведенияОПеречисленияхВзносовНомерСтрокиКонтекстноеМеню" id="259"/>
+									<ExtendedTooltip name="СведенияОПеречисленияхВзносовНомерСтрокиРасширеннаяПодсказка" id="260"/>
+								</LabelField>
+								<InputField name="СведенияОПеречисленияхВзносовНазваниеДокумента" id="261">
+									<DataPath>Объект.СведенияОПеречисленияхВзносов.НазваниеДокумента</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СведенияОПеречисленияхВзносовНазваниеДокументаКонтекстноеМеню" id="262"/>
+									<ExtendedTooltip name="СведенияОПеречисленияхВзносовНазваниеДокументаРасширеннаяПодсказка" id="263"/>
+								</InputField>
+								<InputField name="СведенияОПеречисленияхВзносовНомерДокумента" id="264">
+									<DataPath>Объект.СведенияОПеречисленияхВзносов.НомерДокумента</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СведенияОПеречисленияхВзносовНомерДокументаКонтекстноеМеню" id="265"/>
+									<ExtendedTooltip name="СведенияОПеречисленияхВзносовНомерДокументаРасширеннаяПодсказка" id="266"/>
+								</InputField>
+								<InputField name="СведенияОПеречисленияхВзносовДатаДокумента" id="267">
+									<DataPath>Объект.СведенияОПеречисленияхВзносов.ДатаДокумента</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СведенияОПеречисленияхВзносовДатаДокументаКонтекстноеМеню" id="268"/>
+									<ExtendedTooltip name="СведенияОПеречисленияхВзносовДатаДокументаРасширеннаяПодсказка" id="269"/>
+								</InputField>
+								<InputField name="СведенияОПеречисленияхВзносовСуммаДокумента" id="270">
+									<DataPath>Объект.СведенияОПеречисленияхВзносов.СуммаДокумента</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СведенияОПеречисленияхВзносовСуммаДокументаКонтекстноеМеню" id="271"/>
+									<ExtendedTooltip name="СведенияОПеречисленияхВзносовСуммаДокументаРасширеннаяПодсказка" id="272"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<InputField name="Настоятель" id="58">
+			<DataPath>Объект.Настоятель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НастоятельКонтекстноеМеню" id="59"/>
+			<ExtendedTooltip name="НастоятельРасширеннаяПодсказка" id="60"/>
+		</InputField>
+		<InputField name="ПредседательПриходскогоСовета" id="61">
+			<DataPath>Объект.ПредседательПриходскогоСовета</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПредседательПриходскогоСоветаКонтекстноеМеню" id="62"/>
+			<ExtendedTooltip name="ПредседательПриходскогоСоветаРасширеннаяПодсказка" id="63"/>
+		</InputField>
+		<InputField name="Казначей" id="64">
+			<DataPath>Объект.Казначей</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КазначейКонтекстноеМеню" id="65"/>
+			<ExtendedTooltip name="КазначейРасширеннаяПодсказка" id="66"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Храм_ЕпархиальныйОтчет</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+		<Attribute name="ВалютаРегламентированногоУчета" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Валюта регламентированного учета</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВладелецСчетаОрганизации" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Владелец счета </v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Целевые" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Целевые</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Целевые</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЦелевыеНецелевыеПрочие</Action>
+		</Command>
+		<Command name="Нецелевые" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нецелевые</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Нецелевые</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СводныеПроводки</Action>
+		</Command>
+		<Command name="Печать" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Печать</Action>
+		</Command>
+		<Command name="ЗаполнитьПоДаннымБухучета" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по данным бухучета</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить по данным бухучета</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПоДаннымБухучета</Action>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="ЗаполнитьПоступления" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить поступления текущего периода</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить поступления</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьПоступления</Action>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="ДобавитьРасходыОтчетногоПериода" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить расходы отчетного периода</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить расходы отчетного периода</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьРасходыОтчетногоПериода</Action>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="Все" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВсеПриходы</Action>
+		</Command>
+		<Command name="РассчитатьВзнос" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать взнос</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рассчитать взнос</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>РассчитатьВзнос</Action>
+			<ModifiesSavedData>true</ModifiesSavedData>
+		</Command>
+		<Command name="ПечатьКнигаУчетаЦелевых" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать книги учета целевых поступлений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать книга учета целевых</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПечатьКнигаУчетаЦелевых</Action>
+		</Command>
+		<Command name="ПечатьКнигаУчетаОбщих" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать книги учета общих поступлений</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать книга учета общих</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПечатьКнигаУчетаОбщих</Action>
+		</Command>
+		<Command name="ПечатьКнигаУчетаНеразнесенных" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать книги учета неразнесенных</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать книга учета неразнесенных</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПечатьКнигаУчетаНеразнесенных</Action>
+		</Command>
+	</Commands>
+</Form>
