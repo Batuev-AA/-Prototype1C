@@ -22,6 +22,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Храм_Ящики_и_Кружки</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.Храм_ИнвентаризационнаяКомиссия</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Храм_ПечатьАктаПринятияИмущества</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExternalDataSource.БухгалтерияПредприятия30.Table.Организации</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExternalDataSource.БухгалтерияПредприятия30.Table.Контрагенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExternalDataSource.БухгалтерияПредприятия30.Table.ПриходныйКассовыйОрдер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExternalDataSource.БухгалтерияПредприятия30.Table.РасходныйКассовыйОрдер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExternalDataSource.БухгалтерияПредприятия30.Table.СписаниеСРасчетногоСчета</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ExternalDataSource.БухгалтерияПредприятия30.Table.ПоступлениеНаРасчетныйСчет</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

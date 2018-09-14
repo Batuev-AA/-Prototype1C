@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
+	<ExternalDataSource uuid="276722a5-29d7-44f1-9402-dcf9621ef097">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceManager.БухгалтерияПредприятия30" category="Manager">
+				<xr:TypeId>326e2341-c6f0-4133-ae2a-2d7dcf2a877d</xr:TypeId>
+				<xr:ValueId>7e9f6761-90d7-4f25-832e-106254c9f953</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTablesManager.БухгалтерияПредприятия30" category="TablesManager">
+				<xr:TypeId>065fe588-af8e-4ac3-9b10-6e8cde810879</xr:TypeId>
+				<xr:ValueId>f7a82aa4-35d1-4933-a352-6ddab6468f09</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceCubesManager.БухгалтерияПредприятия30" category="CubesManager">
+				<xr:TypeId>6a8dd983-63cf-4b1c-80ff-ec533c9b3253</xr:TypeId>
+				<xr:ValueId>678e8b48-5c0f-4837-87d3-5dc530abf508</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БухгалтерияПредприятия30</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бухгалтерия предприятия30</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+		</Properties>
+		<ChildObjects>
+			<Table>dbo_Config</Table>
+			<Table>Организации</Table>
+			<Table>Контрагенты</Table>
+			<Table>ПриходныйКассовыйОрдер</Table>
+			<Table>ПоступлениеНаРасчетныйСчет</Table>
+			<Table>РасходныйКассовыйОрдер</Table>
+			<Table>СписаниеСРасчетногоСчета</Table>
+			<Table>ФизическиеЛица</Table>
+		</ChildObjects>
+	</ExternalDataSource>
+</MetaDataObject>

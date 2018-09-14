@@ -15,8 +15,13 @@
 		</InputField>
 		<InputField name="ДокументХозяйственнойОперации" id="4">
 			<DataPath>Запись.ДокументХозяйственнойОперации</DataPath>
+			<ChoiceButton>true</ChoiceButton>
+			<TextEdit>false</TextEdit>
 			<ContextMenu name="ДокументХозяйственнойОперацииКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДокументХозяйственнойОперацииРасширеннаяПодсказка" id="6"/>
+			<Events>
+				<Event name="StartChoice">ДокументХозяйственнойОперацииНачалоВыбора</Event>
+			</Events>
 		</InputField>
 		<InputField name="Ящик" id="19">
 			<DataPath>Запись.Ящик</DataPath>
