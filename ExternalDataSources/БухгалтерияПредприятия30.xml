@@ -35,6 +35,9 @@
 			<Table>РасходныйКассовыйОрдер</Table>
 			<Table>СписаниеСРасчетногоСчета</Table>
 			<Table>ФизическиеЛица</Table>
+			<Table>ПланСчетов</Table>
+			<Table>Хозрасчетный</Table>
+			<Table>Хозрасчетный_ИтогиПоСчетам</Table>
 		</ChildObjects>
 	</ExternalDataSource>
 </MetaDataObject>

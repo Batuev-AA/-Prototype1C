@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5">
-	<Table uuid="f8dc045b-d9cd-4d18-8947-dc4df651b48f">
+	<Table uuid="0185b5bc-d8b6-4d92-8993-7ebb527c6904">
 		<InternalInfo>
-			<xr:GeneratedType name="ExternalDataSourceTableManager.БухгалтерияПредприятия30.ФизическиеЛица" category="Manager">
-				<xr:TypeId>c9d773da-f8ec-4287-b454-c4c8ff75ad8d</xr:TypeId>
-				<xr:ValueId>5e11cee3-1b28-4fa6-8820-023837de05a2</xr:ValueId>
+			<xr:GeneratedType name="ExternalDataSourceTableManager.БухгалтерияПредприятия30.ПланСчетов" category="Manager">
+				<xr:TypeId>afd7240c-fafd-4f26-a3cc-7cff98a5afc1</xr:TypeId>
+				<xr:ValueId>493f3413-17a2-4954-8565-8d92df7f7acf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExternalDataSourceTableObject.БухгалтерияПредприятия30.ФизическиеЛица" category="Object">
-				<xr:TypeId>3c8a4baa-2b86-4d1a-a2ed-a200baa35c10</xr:TypeId>
-				<xr:ValueId>45a39dd9-bc48-488b-8df0-36e3fb24ec5c</xr:ValueId>
+			<xr:GeneratedType name="ExternalDataSourceTableObject.БухгалтерияПредприятия30.ПланСчетов" category="Object">
+				<xr:TypeId>aa8091aa-0d5f-46e7-98d6-974aa8addd06</xr:TypeId>
+				<xr:ValueId>48979063-4f78-4a49-a7fb-5f6e4244b574</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExternalDataSourceTableRef.БухгалтерияПредприятия30.ФизическиеЛица" category="Ref">
-				<xr:TypeId>75f1d613-3ac5-4884-8567-ab1ea2a8b812</xr:TypeId>
-				<xr:ValueId>a65938a3-0a28-4b44-bb34-3bdc4f0849c2</xr:ValueId>
+			<xr:GeneratedType name="ExternalDataSourceTableRef.БухгалтерияПредприятия30.ПланСчетов" category="Ref">
+				<xr:TypeId>8aee004b-5a9b-4971-a515-d0287b49ee73</xr:TypeId>
+				<xr:ValueId>d68af320-4641-43bf-a9f8-748259475cd3</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExternalDataSourceTableList.БухгалтерияПредприятия30.ФизическиеЛица" category="List">
-				<xr:TypeId>9a073243-11ea-4359-9227-9c3895a9983d</xr:TypeId>
-				<xr:ValueId>d5a65595-06db-496f-93a5-ad21bb1d048f</xr:ValueId>
+			<xr:GeneratedType name="ExternalDataSourceTableList.БухгалтерияПредприятия30.ПланСчетов" category="List">
+				<xr:TypeId>d79936c3-5a45-4c7f-9c90-2428327ec062</xr:TypeId>
+				<xr:ValueId>3617c142-ca50-4bfe-8608-e09bdfcef61e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExternalDataSourceTableRecordSet.БухгалтерияПредприятия30.ФизическиеЛица" category="RecordSet">
-				<xr:TypeId>0c4e4082-6883-4163-aece-bfff82d8781f</xr:TypeId>
-				<xr:ValueId>44d99f74-9356-405f-b2ba-798175c6b914</xr:ValueId>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordSet.БухгалтерияПредприятия30.ПланСчетов" category="RecordSet">
+				<xr:TypeId>e3170fee-80ed-4574-9514-ef2c8c92546e</xr:TypeId>
+				<xr:ValueId>c827b76b-cf69-4e68-846f-3c14a7bcd0a9</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExternalDataSourceTableRecordKey.БухгалтерияПредприятия30.ФизическиеЛица" category="RecordKey">
-				<xr:TypeId>c21f5d94-6d33-413c-86db-c534410e2005</xr:TypeId>
-				<xr:ValueId>39f6a754-db40-45b1-b9ef-0b977fe39268</xr:ValueId>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordKey.БухгалтерияПредприятия30.ПланСчетов" category="RecordKey">
+				<xr:TypeId>c49ddd46-587e-4e0c-9da2-9df2ca00615d</xr:TypeId>
+				<xr:ValueId>55edfafe-908e-4046-acea-bd7bda025455</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="ExternalDataSourceTableRecordManager.БухгалтерияПредприятия30.ФизическиеЛица" category="RecordManager">
-				<xr:TypeId>ea345933-4b31-4f57-b54a-f0e43fdb2936</xr:TypeId>
-				<xr:ValueId>8835b195-2f9a-492b-91b8-7e679538539d</xr:ValueId>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordManager.БухгалтерияПредприятия30.ПланСчетов" category="RecordManager">
+				<xr:TypeId>9a6dd5db-9494-4962-af5a-a10a8ef060df</xr:TypeId>
+				<xr:ValueId>a35a5d6b-ccb6-404c-945a-3df909d51835</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ФизическиеЛица</Name>
+			<Name>ПланСчетов</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Физические лица</v8:content>
+					<v8:content>План счетов</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
 			<TableType>Table</TableType>
-			<NameInDataSource>dbo._Reference361</NameInDataSource>
+			<NameInDataSource>dbo._Acc42</NameInDataSource>
 			<ExpressionInDataSource/>
 			<TableDataType>ObjectData</TableDataType>
 			<KeyFields>
-				<xr:Field>ExternalDataSource.БухгалтерияПредприятия30.Table.ФизическиеЛица.Field.СсылкаОснование</xr:Field>
+				<xr:Field>ExternalDataSource.БухгалтерияПредприятия30.Table.ПланСчетов.Field.СсылкаОснование</xr:Field>
 			</KeyFields>
-			<PresentationField>ExternalDataSource.БухгалтерияПредприятия30.Table.ФизическиеЛица.Field.Наименование</PresentationField>
+			<PresentationField>ExternalDataSource.БухгалтерияПредприятия30.Table.ПланСчетов.Field.Код</PresentationField>
 			<ParentField/>
 			<UnfilledParentValue xsi:nil="true"/>
 			<Characteristics/>
 			<UseStandardCommands>true</UseStandardCommands>
 			<QuickChoice>false</QuickChoice>
 			<InputByString>
-				<xr:Field>ExternalDataSource.БухгалтерияПредприятия30.Table.ФизическиеЛица.Field.Наименование</xr:Field>
+				<xr:Field>ExternalDataSource.БухгалтерияПредприятия30.Table.ПланСчетов.Field.Код</xr:Field>
 			</InputByString>
 			<CreateOnInput>Auto</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
@@ -72,7 +72,7 @@
 			<ExtendedListPresentation/>
 			<Explanation/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
-			<ReadOnly>true</ReadOnly>
+			<ReadOnly>false</ReadOnly>
 			<TransactionsIsolationLevel>Auto</TransactionsIsolationLevel>
 			<DataVersionField/>
 			<EditType>InDialog</EditType>
@@ -81,7 +81,7 @@
 			<DataLockControlMode>Automatic</DataLockControlMode>
 		</Properties>
 		<ChildObjects>
-			<Field uuid="d93304f9-c137-46a5-a975-e921e15ac417">
+			<Field uuid="dd6d5594-536d-411a-9260-410d171f5618">
 				<Properties>
 					<Name>СсылкаОснование</Name>
 					<Synonym/>
@@ -117,7 +117,7 @@
 					<AllowNull>false</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="59d8e8cc-5101-41e2-9009-d64b1b8b5f76">
+			<Field uuid="3f9fcd06-821e-4ac2-9d01-1b6cd01a84dc">
 				<Properties>
 					<Name>Код</Name>
 					<Synonym/>
@@ -125,7 +125,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
+							<v8:Length>8</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -153,7 +153,7 @@
 					<AllowNull>false</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="eabbe5e7-ae6c-498c-8842-a74d807c1af0">
+			<Field uuid="6b02174a-a8bd-4587-99ef-3ba419288d57">
 				<Properties>
 					<Name>Наименование</Name>
 					<Synonym/>
@@ -161,7 +161,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
+							<v8:Length>120</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -185,6 +185,38 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
 					<NameInDataSource>_Description</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>false</AllowNull>
+				</Properties>
+			</Field>
+			<Field uuid="537a7218-c5e8-47e7-8903-703a5f861696">
+				<Properties>
+					<Name>Забалансовый</Name>
+					<Synonym/>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ChoiceForm/>
+					<NameInDataSource>_OffBalance</NameInDataSource>
 					<ReadOnly>false</ReadOnly>
 					<AllowNull>false</AllowNull>
 				</Properties>

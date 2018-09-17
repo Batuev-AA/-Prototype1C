@@ -142,7 +142,6 @@
 			<InformationRegister>Храм_КнигаУчета</InformationRegister>
 			<InformationRegister>Храм_ИнвентаризационнаяКомиссия</InformationRegister>
 			<ExternalDataSource>БухгалтерияПредприятия30</ExternalDataSource>
-			<ExternalDataSource>ВнешнийИсточникДанных1</ExternalDataSource>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
