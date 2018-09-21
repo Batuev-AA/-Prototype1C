@@ -38,6 +38,9 @@
 			<Table>ПланСчетов</Table>
 			<Table>Хозрасчетный</Table>
 			<Table>Хозрасчетный_ИтогиПоСчетам</Table>
+			<Table>Организации_КонтактнаяИнфорация</Table>
+			<Table>Организации_ИсторияНаименований</Table>
+			<Table>Организации_ИсторияКонтактнойИнформации</Table>
 		</ChildObjects>
 	</ExternalDataSource>
 </MetaDataObject>

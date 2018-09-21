@@ -12,9 +12,9 @@
 		</Metadata>
 		<Metadata name="Catalog.Храм_Ящики_и_Кружки.Form.ФормаВыбора" id="9e980239-3ce7-4c3d-a0c0-05c319063707" configVersion="2a2b04415368c942873beed4b7ead35d00000000"/>
 		<Metadata name="Catalog.Храм_Ящики_и_Кружки.Form.ФормаВыбора.Form" id="9e980239-3ce7-4c3d-a0c0-05c319063707.0" configVersion="83e31c0351be0242a115937a304a1d6000000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначения" id="413d8e34-9415-401f-8a36-21324d93f194" configVersion="78244fa8c9b7a14d9db19aa2913d7d4f00000000"/>
-		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="413d8e34-9415-401f-8a36-21324d93f194.0" configVersion="89af57bd8eacb64d87410c6a4f13bde000000000"/>
-		<Metadata name="Configuration.Конфигурация" id="3d98ab4d-68a8-4867-bc02-8d71abca8afa" configVersion="740f28c70c09bb48bacb400bb397ca7a00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения" id="413d8e34-9415-401f-8a36-21324d93f194" configVersion="4797dc9cfa8e0744b5dc2ab3cf9ab3ed00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="413d8e34-9415-401f-8a36-21324d93f194.0" configVersion="e801eb1e6e21c342a1c3a074f0f82c3d00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="3d98ab4d-68a8-4867-bc02-8d71abca8afa" configVersion="92b19d51001e5240bd6f25920af3b11f00000000"/>
 		<Metadata name="DataProcessor.Храм_ПечатьАктаПринятияИмущества" id="38516a8d-2e17-441f-9949-d7553e8305f8" configVersion="7b706a972485204eb676339caf6a0b0600000000">
 			<Metadata name="DataProcessor.Храм_ПечатьАктаПринятияИмущества.Attribute.СсылкаНаОбъект" id="449d5533-68b6-4a88-a2c8-bf72c1eeae12"/>
 		</Metadata>
@@ -83,8 +83,8 @@
 			<Metadata name="Document.Храм_ЕпархиальныйОтчет.Attribute.ПериодОтчета" id="f6152b16-104e-41ca-9643-9277859f8445"/>
 			<Metadata name="Document.Храм_ЕпархиальныйОтчет.TabularSection.СведенияОПеречисленияхВзносов.Attribute.СуммаДокумента" id="fccf1e30-d108-4b56-bd4b-e06e9addcf2c"/>
 		</Metadata>
-		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Form.ФормаДокумента" id="e329ec72-2bd8-48b5-95a9-da1ef53d12d6" configVersion="c2223a79698bec40b9536285a6b9f0a800000000"/>
-		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Form.ФормаДокумента.Form" id="e329ec72-2bd8-48b5-95a9-da1ef53d12d6.0" configVersion="4cea326a5329b2488d2e4e6e31a4e68900000000"/>
+		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Form.ФормаДокумента" id="e329ec72-2bd8-48b5-95a9-da1ef53d12d6" configVersion="2ed1cca102630042ae57835fd0ec71d500000000"/>
+		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Form.ФормаДокумента.Form" id="e329ec72-2bd8-48b5-95a9-da1ef53d12d6.0" configVersion="9e0474e68c17ed4db073ddb687bc406b00000000"/>
 		<Metadata name="Document.Храм_ЕпархиальныйОтчет.ManagerModule" id="4084d4fe-9a10-4d1c-bc72-644ef4253e49.2" configVersion="435f06562da63f4689e6ab729d57972300000000"/>
 		<Metadata name="Document.Храм_ЕпархиальныйОтчет.ObjectModule" id="4084d4fe-9a10-4d1c-bc72-644ef4253e49.0" configVersion="6de075ce20d5514a8678e8c44177ed9c00000000"/>
 		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Template.ПФ_MXL_Храм_ЕпархиальныйОтчет" id="1e8433bd-83df-4fff-872f-db024c8c09a3" configVersion="4b265f5e8ccad14bac89f5aa857e625b00000000"/>
@@ -93,8 +93,8 @@
 		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Template.ПФ_MXL_Храм_КнигаУчетаНеразнесенныхОпераций.Template" id="bded8f95-4b39-4cb6-be30-47368f69a66f.0" configVersion="eb655acf78d45245bfc42d888798d21700000000"/>
 		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Template.ПФ_MXL_Храм_КнигаУчетаОбщихПоступлений" id="e6c3d9ff-5037-423f-b7b3-800e715313d4" configVersion="33ba3cfd1acae74bbdbb1ef617e05c2700000000"/>
 		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Template.ПФ_MXL_Храм_КнигаУчетаОбщихПоступлений.Template" id="e6c3d9ff-5037-423f-b7b3-800e715313d4.0" configVersion="cdb4b1226cf0e147a4980b5c34d59b5d00000000"/>
-		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Template.ПФ_MXL_Храм_КнигаУчетаЦелевыхПоступлений" id="2e7a3e92-96fa-4c83-af7f-1c9e81e26344" configVersion="d582423494b6eb43b6d0a7af40966f1400000000"/>
-		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Template.ПФ_MXL_Храм_КнигаУчетаЦелевыхПоступлений.Template" id="2e7a3e92-96fa-4c83-af7f-1c9e81e26344.0" configVersion="b2ff47812799af4692c97e2e1153f4a800000000"/>
+		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Template.ПФ_MXL_Храм_КнигаУчетаЦелевыхПоступлений" id="2e7a3e92-96fa-4c83-af7f-1c9e81e26344" configVersion="5d96694931c218478b17f8514db12d5700000000"/>
+		<Metadata name="Document.Храм_ЕпархиальныйОтчет.Template.ПФ_MXL_Храм_КнигаУчетаЦелевыхПоступлений.Template" id="2e7a3e92-96fa-4c83-af7f-1c9e81e26344.0" configVersion="ac7c62768d92d442bcb99c770d60834800000000"/>
 		<Metadata name="Enum.Храм_ПериодыЕпархиальногоОтчета" id="4f3c0cbc-a3c0-43b0-9a68-63a65189863e" configVersion="c9adaef44f106d46b4e20b64a0fff13c00000000">
 			<Metadata name="Enum.Храм_ПериодыЕпархиальногоОтчета.EnumValue.Год" id="100882c9-5d00-4eca-9f2c-ac02ceaf1dc1"/>
 			<Metadata name="Enum.Храм_ПериодыЕпархиальногоОтчета.EnumValue.ЧетвертыйКвартал" id="2a21c35b-37cb-4834-a88d-9ae4ab944f20"/>
@@ -102,7 +102,7 @@
 			<Metadata name="Enum.Храм_ПериодыЕпархиальногоОтчета.EnumValue.ПервыйКвартал" id="9110f34f-25e7-48b8-8905-62007c996358"/>
 			<Metadata name="Enum.Храм_ПериодыЕпархиальногоОтчета.EnumValue.ТретийКвартал" id="99efd6cc-cd9c-4d90-aa4e-1874d8f178ea"/>
 		</Metadata>
-		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30" id="276722a5-29d7-44f1-9402-dcf9621ef097" configVersion="edf999eec79d6944a1a1cc00003fe9d700000000"/>
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30" id="276722a5-29d7-44f1-9402-dcf9621ef097" configVersion="ec14b3a5b86e2e4eb63a266b8a3901b300000000"/>
 		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.dbo_Config" id="9a328069-059a-4478-bf33-35565b34149c" configVersion="3a1ac21f1599e0428ab10c76561db3a200000000">
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.dbo_Config.Field.FileName" id="1609b53f-8c26-48c4-8772-09c8e10f23f4"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.dbo_Config.Field.Creation" id="1dcd8e54-ce72-4358-861a-0098e87a12b4"/>
@@ -114,7 +114,7 @@
 		</Metadata>
 		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.dbo_Config.Form.ФормаЗаписи" id="fafa41da-59c1-49c7-9872-4b6d34ffa223" configVersion="789c7ce5418ef94e9ee021a65a7fcead00000000"/>
 		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.dbo_Config.Form.ФормаЗаписи.Form" id="fafa41da-59c1-49c7-9872-4b6d34ffa223.0" configVersion="7e20f6c636e4374eb37de3f6e86f441600000000"/>
-		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Контрагенты" id="ad25ce5c-aa68-428a-9be5-88864470d47f" configVersion="b10e1df279aa7f4382a87ce5bbef40c500000000">
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Контрагенты" id="ad25ce5c-aa68-428a-9be5-88864470d47f" configVersion="cf54aa31134fee4ca68ef19a2b207e6a00000000">
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Контрагенты.Field.ЮрФизЛицо" id="0813cc6a-a14d-4e14-8d11-916ab9741b20"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Контрагенты.Field.Родитель" id="126d4349-162f-4bbb-90c6-002092f4300b"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Контрагенты.Field.ИНН" id="176d9c7e-aefb-4cad-97a4-b51f5245d245"/>
@@ -127,14 +127,54 @@
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Контрагенты.Field.Ссылка" id="ec458e03-97ed-4621-b795-811a77032dad"/>
 		</Metadata>
 		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Контрагенты.ManagerModule" id="ad25ce5c-aa68-428a-9be5-88864470d47f.1" configVersion="0b05443dc564b4469dd4931f7f89756e00000000"/>
-		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации" id="a0feb903-e4df-485b-a022-1366d1ba86b4" configVersion="111a495d2c974345a523d4653aa46ce300000000">
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации" id="a0feb903-e4df-485b-a022-1366d1ba86b4" configVersion="22ac8a28ac5c4447a3836cefd8f8f19400000000">
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации.Field.ИНН" id="06537dd5-5805-4615-8ecd-467b663cb830"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации.Field.Наименование" id="66a64c49-fd73-48e1-942e-018ac61895c9"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации.Field.КПП" id="719109c1-1d2e-422b-b0e8-68d53a3bb560"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации.Field.Ссылка" id="82eef20e-abd4-4fc4-b5b5-fd5d449f82a4"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации.Field.Код" id="a2d559bb-82ad-47e8-a033-c629a13cf0a4"/>
 		</Metadata>
-		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ПланСчетов" id="0185b5bc-d8b6-4d92-8993-7ebb527c6904" configVersion="cca04faeec092f4eb3029a94aaf637de00000000">
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияКонтактнойИнформации" id="4ced9bed-f3ae-4379-bbfe-51ad8c3a351a" configVersion="6c61f31d2926974aa4746b6bc5c8344c00000000">
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияКонтактнойИнформации.Field._Fld23037" id="2c82e670-8a4d-4dd3-8202-c68232ed3a14"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияКонтактнойИнформации.Field._KeyField" id="341657b2-ce36-446b-a68d-560a173b2c36"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияКонтактнойИнформации.Field._LineNo23033" id="64893fed-8df9-4a16-b0d4-2d3b49f11026"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияКонтактнойИнформации.Field._Fld23035RRef" id="70af0bba-9be3-44c8-974b-1e7b9dde4c35"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияКонтактнойИнформации.Field._Fld23036" id="7debbdd3-08f1-4042-a7b9-e395e9cdfcad"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияКонтактнойИнформации.Field._Fld23034" id="b6cbf723-8808-4355-949c-d5d85fa6ea89"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияКонтактнойИнформации.Field._Reference163_IDRRef" id="da669c55-2356-48cb-b84e-5c67fc3af425"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияКонтактнойИнформации.Field._Fld1204" id="eabbb254-6e93-45b1-990f-3c514103dafe"/>
+		</Metadata>
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований" id="982e9235-e33e-454d-9a21-d06a4fbacbf7" configVersion="9aa394e4198c9042b77ceeaeb40fba6800000000">
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._Fld23027" id="08d6a123-34a1-45ba-b91d-d4ba54d0714c"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._Fld23026" id="16918010-11eb-4cb1-b4ae-f3bf296c3ab3"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._Fld23030" id="5909aafc-5226-44cc-8f12-300834a47a2b"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._LineNo23025" id="720b1a79-86cd-482b-92d2-b989bd508872"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._Fld23028" id="82b5da4c-9e01-4e67-9fca-b08ee8497148"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._KeyField" id="847baa9f-c95d-4794-aefd-59314f21c5c0"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._Fld23031" id="b20c5f5d-369f-4fee-aae3-e540ef666603"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._Fld1204" id="bb9930fc-324e-4890-a2e7-95d9af1824a8"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._Fld23029" id="eef9addc-a17b-4157-9324-87a7ce58c407"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_ИсторияНаименований.Field._Reference163_IDRRef" id="fabb5841-678b-4c31-a3c1-7f53846442d8"/>
+		</Metadata>
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация" id="63a347a5-6c22-4e97-86d6-9b8e65916830" configVersion="78a57fa05188b5439a48e08cd6e7124b00000000">
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23015" id="1319250c-ae51-4ea4-9919-57cb9c70a96b"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._KeyField" id="29306567-ddbe-465c-8c5e-f57dd2324268"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23008RRef" id="3ab3960d-4774-497e-b62b-6cea86ec1a3a"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23014" id="4f598581-fbba-4ad6-8de5-6d268749b9e4"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23018RRef" id="60c70c69-dfc8-4e7f-be21-49c669b8e1b6"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23016" id="63f7bbc7-219a-4bf2-a361-ec541d577fa4"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23011" id="6cf9d90b-caab-4afa-8f55-3068e43392bf"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23007RRef" id="81925ba2-025d-46f3-8937-927d8b1fae9b"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Reference163_IDRRef" id="89c5970c-be89-444f-8fa8-7a96f5132ded"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23012" id="91350c4e-1067-4f67-b9c1-89778db7c35a"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23010" id="a916ca28-b45c-4b2c-9318-0e2a4bab62fd"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23017" id="aca3ab4e-3cfc-4e30-9106-0112c35fd29f"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23009" id="b328b116-fcdc-4528-8987-26b2c2997d96"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld23013" id="c96cef38-c026-4f0f-8352-0a28673ec37b"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._LineNo23006" id="d03d24ef-5784-48ff-bc8d-e9cdadced1b7"/>
+			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Организации_КонтактнаяИнфорация.Field._Fld1204" id="f7af2c1f-7547-49f2-9e69-e9c7ba3c36ff"/>
+		</Metadata>
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ПланСчетов" id="0185b5bc-d8b6-4d92-8993-7ebb527c6904" configVersion="2175483c9155f940be05285da58ad43800000000">
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ПланСчетов.Field.Код" id="3f9fcd06-821e-4ac2-9d01-1b6cd01a84dc"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ПланСчетов.Field.Забалансовый" id="537a7218-c5e8-47e7-8903-703a5f861696"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ПланСчетов.Field.Наименование" id="6b02174a-a8bd-4587-99ef-3ba419288d57"/>
@@ -212,12 +252,12 @@
 		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.СписаниеСРасчетногоСчета.Form.ФормаСписка" id="3114a4a2-5600-4dc6-8c79-51e0c5ac7154" configVersion="0bbce0bfce2f9a489466ed382b66eaa300000000"/>
 		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.СписаниеСРасчетногоСчета.Form.ФормаСписка.Form" id="3114a4a2-5600-4dc6-8c79-51e0c5ac7154.0" configVersion="0ae27a0daef00546bfe41fd36691411d00000000"/>
 		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.СписаниеСРасчетногоСчета.ManagerModule" id="b15435fe-27bf-4e81-96fa-14676a0ca39c.1" configVersion="5692cab50f41a54abcccf8b729091cfe00000000"/>
-		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ФизическиеЛица" id="f8dc045b-d9cd-4d18-8947-dc4df651b48f" configVersion="88ee457967e7e34b9d32da334cd9b3b600000000">
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ФизическиеЛица" id="f8dc045b-d9cd-4d18-8947-dc4df651b48f" configVersion="2d88e9432e603e44ba7b0c92521550cc00000000">
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ФизическиеЛица.Field.Код" id="59d8e8cc-5101-41e2-9009-d64b1b8b5f76"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ФизическиеЛица.Field.СсылкаОснование" id="d93304f9-c137-46a5-a975-e921e15ac417"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.ФизическиеЛица.Field.Наименование" id="eabbe5e7-ae6c-498c-8842-a74d807c1af0"/>
 		</Metadata>
-		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный" id="409ee45e-79e1-4ff7-8714-e3f7f89606ed" configVersion="1fecec122629ba46abcce4e2056e072500000000">
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный" id="409ee45e-79e1-4ff7-8714-e3f7f89606ed" configVersion="b6db2c1f40f5694d8cac80774599a84a00000000">
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный.Field.Регистратор" id="05025006-0e4e-41cd-8fd4-07bcd98350cd"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный.Field.Период" id="4d56f3c7-bad8-4474-b67c-8b36efd81486"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный.Field.КоличествоДт" id="606e6d7f-1af3-4706-ba05-80e70dbb8cd4"/>
@@ -227,7 +267,7 @@
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный.Field.КоличествоКт" id="9ec06fdc-dc07-4261-aaa4-3d8a94969eca"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный.Field.СчетДт" id="c7357cd1-dce7-4578-bcad-213a9aa16262"/>
 		</Metadata>
-		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный_ИтогиПоСчетам" id="bdcc872a-efc8-4217-a90c-5ccd0844285a" configVersion="f9720b8270d1f240b4ebe615fe3b13e500000000">
+		<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный_ИтогиПоСчетам" id="bdcc872a-efc8-4217-a90c-5ccd0844285a" configVersion="0ffed554d17de74b88df06b70923c17100000000">
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный_ИтогиПоСчетам.Field.Период" id="00ecda6d-67a5-4e82-95ba-0bdd85f5a42d"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный_ИтогиПоСчетам.Field.ОборотСумма" id="6a6fbdcf-0485-4c05-8f5c-02634af95e77"/>
 			<Metadata name="ExternalDataSource.БухгалтерияПредприятия30.Table.Хозрасчетный_ИтогиПоСчетам.Field.Организация" id="7d241404-7b4f-481e-99ee-d042fdd5a10e"/>
@@ -254,8 +294,8 @@
 		</Metadata>
 		<Metadata name="InformationRegister.Храм_КнигаУчета.Form.ФормаЗаписи" id="e04a75d8-2a2d-4437-a997-66ac3e8753fb" configVersion="634a514443809e40a97fe91bccd5153800000000"/>
 		<Metadata name="InformationRegister.Храм_КнигаУчета.Form.ФормаЗаписи.Form" id="e04a75d8-2a2d-4437-a997-66ac3e8753fb.0" configVersion="79703f6392537a4ca29f649236680efc00000000"/>
-		<Metadata name="InformationRegister.Храм_КнигаУчета.Form.ФормаСписка" id="1d54ef9f-9268-4d2c-88e3-52af9439b57c" configVersion="c21d9b755d08884c96598e18a0bfe40600000000"/>
-		<Metadata name="InformationRegister.Храм_КнигаУчета.Form.ФормаСписка.Form" id="1d54ef9f-9268-4d2c-88e3-52af9439b57c.0" configVersion="18e68e9ab46fe74b8c1d5ac8bf8f3edb00000000"/>
+		<Metadata name="InformationRegister.Храм_КнигаУчета.Form.ФормаСписка" id="1d54ef9f-9268-4d2c-88e3-52af9439b57c" configVersion="6281b97591069b49a8b0c901cfdd126a00000000"/>
+		<Metadata name="InformationRegister.Храм_КнигаУчета.Form.ФормаСписка.Form" id="1d54ef9f-9268-4d2c-88e3-52af9439b57c.0" configVersion="f492e693367f0646a6edba4904286a8600000000"/>
 		<Metadata name="InformationRegister.Храм_КнигаУчета.RecordSetModule" id="9f849845-f4cb-47ed-8c95-590c005849d1.1" configVersion="dfc1c26a3e18044781cf51a2069534df00000000"/>
 		<Metadata name="InformationRegister.Храм_КнигаУчета.Template.ПФ_MXL_Храм_АктВскрытияЯщиковСбораПожертвований" id="86e2018f-29dc-40df-992f-08ae4bc2baee" configVersion="b60e26c48a05a640b219e6d9cfe8eaed00000000"/>
 		<Metadata name="InformationRegister.Храм_КнигаУчета.Template.ПФ_MXL_Храм_АктВскрытияЯщиковСбораПожертвований.Template" id="86e2018f-29dc-40df-992f-08ae4bc2baee.0" configVersion="3f81e38546f90941a76b3911f865386c00000000"/>

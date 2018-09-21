@@ -132,6 +132,11 @@
 					<ContextMenu name="ЯщикКонтекстноеМеню" id="46"/>
 					<ExtendedTooltip name="ЯщикРасширеннаяПодсказка" id="47"/>
 				</LabelField>
+				<LabelField name="ТипДокумента" id="54">
+					<DataPath>Список.ТипДокумента</DataPath>
+					<ContextMenu name="ТипДокументаКонтекстноеМеню" id="55"/>
+					<ExtendedTooltip name="ТипДокументаРасширеннаяПодсказка" id="56"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>
