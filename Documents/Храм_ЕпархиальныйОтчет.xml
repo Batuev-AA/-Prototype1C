@@ -1141,6 +1141,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаПечати</Form>
 			<TabularSection uuid="0ec5984a-5bd3-4796-9f24-c54166f22bff">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.Храм_ЕпархиальныйОтчет.ПоступленияПредыдущихЛет" category="TabularSection">

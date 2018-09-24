@@ -45,7 +45,7 @@
 			<ExpressionInDataSource/>
 			<TableDataType>ObjectData</TableDataType>
 			<KeyFields>
-				<xr:Field>ExternalDataSource.БухгалтерияПредприятия30.Table.ПриходныйКассовыйОрдер.Field.СсылкаОснования</xr:Field>
+				<xr:Field>ExternalDataSource.БухгалтерияПредприятия30.Table.ПриходныйКассовыйОрдер.Field.СсылкаОснование</xr:Field>
 			</KeyFields>
 			<PresentationField/>
 			<ParentField/>
@@ -81,11 +81,11 @@
 		<ChildObjects>
 			<Field uuid="a7d399ff-c3d5-457f-9669-d72d8e46b394">
 				<Properties>
-					<Name>СсылкаОснования</Name>
+					<Name>СсылкаОснование</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ссылка основания</v8:content>
+							<v8:content>Ссылка основание</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

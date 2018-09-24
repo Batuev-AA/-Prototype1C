@@ -82,7 +82,12 @@
 			<Field uuid="4fd73484-9818-45b8-9acb-10a90f697b8b">
 				<Properties>
 					<Name>СсылкаОснование</Name>
-					<Synonym/>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ссылка основание</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:base64Binary</v8:Type>

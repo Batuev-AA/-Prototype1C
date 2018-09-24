@@ -357,6 +357,42 @@
 					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
+			<Field uuid="9079cb89-9d60-46c8-84ee-5e35f8d7e84e">
+				<Properties>
+					<Name>_RecorderTRef</Name>
+					<Synonym/>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:base64Binary</v8:Type>
+						<v8:BinaryDataQualifiers>
+							<v8:Length>4</v8:Length>
+							<v8:AllowedLength>Fixed</v8:AllowedLength>
+						</v8:BinaryDataQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ChoiceForm/>
+					<NameInDataSource>_RecorderTRef</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>false</AllowNull>
+				</Properties>
+			</Field>
 		</ChildObjects>
 	</Table>
 </MetaDataObject>
