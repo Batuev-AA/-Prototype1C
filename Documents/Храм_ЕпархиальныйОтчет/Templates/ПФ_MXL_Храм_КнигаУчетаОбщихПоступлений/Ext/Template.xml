@@ -2240,7 +2240,7 @@
 				<c>
 					<f>42</f>
 					<parameter>Содержание</parameter>
-					<detailParameter>Ссылка</detailParameter>
+					<detailParameter>РасшифровкаСсылка</detailParameter>
 				</c>
 			</c>
 			<c>

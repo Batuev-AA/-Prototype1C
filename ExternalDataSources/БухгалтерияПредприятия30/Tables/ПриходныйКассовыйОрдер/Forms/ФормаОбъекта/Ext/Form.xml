@@ -91,6 +91,7 @@
 		</InputField>
 		<InputField name="Комментарий" id="16">
 			<DataPath>Объект.Комментарий</DataPath>
+			<Visible>false</Visible>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="18"/>

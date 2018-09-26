@@ -114,6 +114,7 @@
 				</LabelField>
 				<LabelField name="Комментарий" id="40">
 					<DataPath>Список.Комментарий</DataPath>
+					<Visible>false</Visible>
 					<ContextMenu name="КомментарийКонтекстноеМеню" id="41"/>
 					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="42"/>
 				</LabelField>
