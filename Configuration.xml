@@ -133,6 +133,8 @@
 			<Subsystem>Храм</Subsystem>
 			<Role>Роль1</Role>
 			<CommonModule>ОбщегоНазначения</CommonModule>
+			<WebService>Temple</WebService>
+			<ScheduledJob>ОбновитьДанныеИзВнешнегоИсточника</ScheduledJob>
 			<Catalog>Храм_НаправленияПрихода</Catalog>
 			<Catalog>Храм_НаправленияРасхода</Catalog>
 			<Catalog>Храм_Ящики_и_Кружки</Catalog>
